@@ -5,34 +5,6 @@ import dronec from "../all-images/drone-img/drone-c.jpg";
 import droned from "../all-images/drone-img/drone-d.jpg";
 import dronee from "../all-images/drone-img/drone-e.jpg";
 
-import { createClient } from 'redis';
-
-const client = createClient({
-    password: 'PPjCNPAQ52SFcBGWI1y4d4e1lvNue85c',
-    socket: {
-        host: 'redis-15865.c1.us-east1-2.gce.cloud.redislabs.com',
-        port: 15865
-    }
-});
-
-// Store the drone data in the cache with a key of "droneData" and an expiration time of 10 minutes
-redis.set("droneData", JSON.stringify(droneData), "EX", 600);
-
-// Retrieve the drone data from the cache by passing the key
-redis.get("droneData", function (err, result) {
-    if (err) {
-      // Handle error
-    } else {
-      if (result) {
-        // Parse the result as JSON and use it
-        const droneData = JSON.parse(result);
-      } else {
-        // Data not found in the cache, fetch it from the database or API
-      }
-    }
-  });  
-
-
 const droneData = [
     {
         id: 1,
@@ -99,19 +71,5 @@ const droneData = [
             "Take to the skies with the Contixo F22+ folding video drone. Perfect for beginners, its one-key takeoff/landing and adjustable maximum speed let you learn how to fly with ease, with tonnes of features including 4K photos and HD video, and an operating radius of 550 metres. Weighing just 242 grams, its foldable design means you can take it all over the place."
     },
 ];
+
 export default droneData;
-
-  // Require the file system module
-  const fs = require('fs');
-
-  // Read the .js file as a string
-  const jsFile = fs.readFileSync('droneData.js', 'utf8');
-  
-  // Evaluate the string as JavaScript code and assign it to a variable
-  const jsData = eval(jsFile);
-  
-  // Convert the data to JSON string
-  const jsonData = JSON.stringify(jsData);
-  
-  // Write the JSON string to a new file
-  fs.writeFileSync('droneData.json', jsonData);
