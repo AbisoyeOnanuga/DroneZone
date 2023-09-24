@@ -31,11 +31,11 @@ const DroneItem = (props) => {
           </div>
 
           <button className=" w-50 drone__item-btn drone__btn-rent">
-            <Link to="./src/pages/DroneDetails.jsx">Rent</Link>
+            <Link to={`/drones/${droneName}`}>Rent</Link>
           </button>
 
           <button className=" w-50 drone__item-btn drone__btn-details">
-            <Link to="./src/pages/DroneDetails.jsx">Details</Link>
+            <Link to={`/drones/${droneName}`}>Details</Link>
           </button>
         </div>
       </div>
