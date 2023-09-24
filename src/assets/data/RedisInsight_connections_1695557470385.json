@@ -1,0 +1,45 @@
+[
+  {
+    "compressor": "NONE",
+    "id": "c3988121-ebda-44a4-8745-ef30ac04f3ad",
+    "host": "redis-15865.c1.us-east1-2.gce.cloud.redislabs.com",
+    "port": 15865,
+    "name": "Abisoye-free-db",
+    "db": null,
+    "username": null,
+    "password": "PPjCNPAQ52SFcBGWI1y4d4e1lvNue85c",
+    "connectionType": "STANDALONE",
+    "nameFromProvider": "Abisoye-free-db",
+    "provider": "RE_CLOUD",
+    "lastConnection": "2023-09-24T11:50:27.193Z",
+    "nodes": [],
+    "modules": [
+      {
+        "name": "bf",
+        "version": 20405,
+        "semanticVersion": "2.4.5"
+      },
+      {
+        "name": "searchlight",
+        "version": 20612
+      },
+      {
+        "name": "timeseries",
+        "version": 10811,
+        "semanticVersion": "1.8.11"
+      },
+      {
+        "name": "ReJSON",
+        "version": 20407,
+        "semanticVersion": "2.4.7"
+      }
+    ],
+    "tls": null,
+    "tlsServername": null,
+    "verifyServerCert": null,
+    "caCert": null,
+    "clientCert": null,
+    "ssh": null,
+    "sshOptions": null
+  }
+]
