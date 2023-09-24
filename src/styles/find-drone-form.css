@@ -1,13 +1,13 @@
-.find__cars-left {
+.find__drones-left {
   background: linear-gradient(rgb(249, 168, 38, 0.9), rgb(249, 168, 38, 0.9)),
-    url("../assets/all-images/toyota-offer-2.png");
+    url("../assets/all-images/drone-img/drone-d.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 65px 35px;
 }
 
-.find__cars-left h2 {
+.find__drones-left h2 {
   font-weight: 600;
   font-size: 2.8rem;
 }
@@ -72,8 +72,8 @@
   color: #7c8a97;
 }
 
-.find__car-btn {
-  background: #000d6b !important;
+.find__drone-btn {
+  background: #006b29 !important;
   color: #fff !important;
   padding: 8px 15px;
   width: 100%;
@@ -82,11 +82,11 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .find__cars-left {
+  .find__drones-left {
     padding: 65px 22px;
   }
 
-  .find__cars-left h2 {
+  .find__drones-left h2 {
     font-size: 1.5rem;
   }
 
@@ -106,7 +106,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .find__cars-left {
+  .find__drones-left {
     padding-top: 20px;
     padding-bottom: 0;
     background: #fff;
@@ -135,11 +135,11 @@
     font-size: 0.7rem;
   }
 
-  .find__car-btn {
+  .find__drone-btn {
     font-size: 0.8rem;
   }
 
-  .find__cars-left h2 {
+  .find__drones-left h2 {
     font-size: 1rem;
   }
 

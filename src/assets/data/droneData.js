@@ -10,7 +10,7 @@ const droneData = [
         id: 1,
         brand: "G-Skyline",
         rating: 100,
-        droneName: "G-Skyline S138"
+        droneName: "G-Skyline S138",
         imgUrl: dronea,
         model: "G-SKYLINE S138",
         price: 89.99,
@@ -23,7 +23,7 @@ const droneData = [
         id: 2,
         brand: "DJI",
         rating: 100,
-        droneName: "DJI Mini 3"
+        droneName: "DJI Mini 3",
         imgUrl: droneb,
         model: "CP.MA.00000584.01",
         price: 89.99,
@@ -36,7 +36,7 @@ const droneData = [
         id: 3,
         brand: "DJI",
         rating: 100,
-        droneName: "DJI Mavic 3"
+        droneName: "DJI Mavic 3",
         imgUrl: dronec,
         model: "CP.MA.00000596.01",
         price: 200.99,
@@ -49,7 +49,7 @@ const droneData = [
         id: 4,
         brand: "G-SKYLINE",
         rating: 100,
-        droneName: "G-SKYLINE SE MAX"
+        droneName: "G-SKYLINE SE MAX",
         imgUrl: droned,
         model: "G-SKYLINE PRO SE MAX",
         price: 189.99,
@@ -62,7 +62,7 @@ const droneData = [
         id: 5,
         brand: "Contixo",
         rating: 100,
-        droneName: "Contixo F22+"
+        droneName: "Contixo F22+",
         imgUrl: dronee,
         model: "F22",
         price: 153.99,

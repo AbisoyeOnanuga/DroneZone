@@ -1,7 +1,7 @@
 import React from "react";
 
-import masterCard from "../../assets/all-images/master-card.jpg";
-import paypal from "../../assets/all-images/paypal.jpg";
+import masterCard from "../../assets/all-images/mastercard-line.svg";
+import paypal from "../../assets/all-images/paypal-fill.svg";
 import "../../styles/payment-method.css";
 
 const PaymentMethod = () => {

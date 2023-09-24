@@ -67,9 +67,9 @@ const Header = () => {
               <div className="logo">
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <i class="ri-car-line"></i>
+                    <i class="ri-planet-fill"></i>
                     <span>
-                      Rent Drone <br /> Service
+                      Drone Zone <br /> 
                     </span>
                   </Link>
                 </h1>
